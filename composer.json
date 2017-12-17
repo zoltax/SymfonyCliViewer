@@ -1,0 +1,20 @@
+{
+  "name": "filipkulig/tangent_test",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Filip Kulig",
+      "email": "filipkulig@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tan\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  }
+}
